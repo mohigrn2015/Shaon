@@ -1,0 +1,32 @@
+<!DOCTYPE html>    
+<html>    
+    
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">     
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script> 
+        <scripttype="text/javascript" src="http://codeseven.github.com/toastr/toastr.js"> </script>    
+        <link rel="stylesheet" type="text/css" href="http://codeseven.github.com/toastr/toastr.css">    
+        <link rel="stylesheet" type="text/css" href="http://codeseven.github.com/toastr/toastr-responsive.css">  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" />
+    
+        <title>How to Use Toastr</title>    
+</head>    
+    
+<body>    
+    <h2>How to Use Toastr Notifications</h2>    
+    
+    <button type="button" class="btn" id="showtoast">Show Toastr Notification</button>  
+                                                                        
+    
+<script>
+$(function(){    
+    $('#showtoast').click(function(){          
+        toastr.success("Are you here? ","You are the best")         
+    });    
+});    
+</script>
+</body>    
+    
+
+</html>   
